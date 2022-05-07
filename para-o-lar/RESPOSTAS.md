@@ -16,7 +16,7 @@ Resp. = HATEOAS é um componente que faz parte da arquitetura REST, cujo objetiv
 Resp. = A idempotência garante que uma solicitação de API seja concluída apenas uma vez. Com uma solicitação idempotente, se a solicitação original for concluída com êxito, as novas tentativas subsequentes retornam o resultado da solicitação original bem-sucedida e não terão efeito adicional.
 
 5) Qual a diferença entre os métodos PUT e PATCH?
-Resp. = A diferença entre os métodos PUT e PATCH é que o método de requisição PATCH aplica modificações parciais a um recurso e, o método PUT permite apenas substituições completas de um documento. 
+Resp. = A diferença entre os métodos PUT e PATCH é que o método de requisição PATCH aplica modificações parciais a um recurso e, o método PUT permite apenas substituições completas de um documento.
 
 
 
