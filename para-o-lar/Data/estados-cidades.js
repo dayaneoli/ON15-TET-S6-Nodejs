@@ -5732,3 +5732,14 @@ const estados = [
         ]
       }
     ]
+
+
+    for(let i =0; i <estados.length; i++){
+      let acessaEstado = estados[i]
+      console.log("\n--------------------------------------------------------------------------------")
+      console.log(`Estado: ${acessaEstado.nome} - (${acessaEstado.sigla})`)
+      console.log(`O Estado tem ${acessaEstado.cidades.length} cidades: ${acessaEstado.cidades.toString()}`)
+    
+    }
+    
+    

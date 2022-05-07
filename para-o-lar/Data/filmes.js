@@ -75,3 +75,39 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+//Estava tentando fazer do modo abaixo:
+
+// // // separar as arrays de dentro da array obj
+// var titulos = obj.reduce(function(prev, curr) { 
+//     return [...prev, ...curr.Title];
+//   }, []);
+// //   console.log(titulos)
+
+// var years = obj.reduce(function(prev, curr) {
+//     return [...prev, ...curr.Year];
+//   }, []);
+// //   console.log(years)
+
+// var generos = obj.reduce(function(prev, curr) {
+//     return [...prev, ...curr.Genre];
+//   }, []);
+// //   console.log(generos)
+
+//   // juntar as strings
+// const converter = titulos.join("");
+// console.log(converter)
+
+// const converter2 = years.join("");
+// console.log(converter2)
+
+// const converter3 = generos.join("");
+// console.log(converter3)
+
+for(let i=0; i < obj.length; i++){
+  let filme = obj[i]
+  console.log(filme.Title)
+  console.log(filme.Year)
+  console.log(filme.Genre)
+  console.log("\n--------------")
+}
