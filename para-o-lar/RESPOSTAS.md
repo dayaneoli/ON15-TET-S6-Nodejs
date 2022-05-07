@@ -1,8 +1,8 @@
 # Respostas
-1) qual o nivel de maturidade correspodente ao CRUD?
+1) Qual o nivel de maturidade correspodente ao CRUD?
 Resp. = O nível de maturidade correspondente ao CRUD é o nível 2.
 
-2) qual a relação entre os metodos HTTP e o CRUD?
+2) Qual a relação entre os metodos HTTP e o CRUD?
 Resp. = A relação é o suporte aos métodos HTTP para manipular os recursos:
 POST (CREATE) cria um recurso.
 GET (READ) retorna uma representação de um recurso.
